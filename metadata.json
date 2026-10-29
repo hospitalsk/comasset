@@ -1,0 +1,6 @@
+{
+  "name": "ระบบบริหารจัดการครุภัณฑ์คอมพิวเตอร์และทรัพย์สิน (Thai Gov Asset Management)",
+  "description": "ระบบบริหารจัดการครุภัณฑ์คอมพิวเตอร์และทรัพย์สินภาครัฐ ตามระเบียบกระทรวงการคลังฯ พ.ศ. 2560 เชื่อมต่อ Supabase Realtime พร้อมระบบคำนวณค่าเสื่อมราคา QR Code ยืม-คืน ส่งซ่อม และคลัง 3D",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
