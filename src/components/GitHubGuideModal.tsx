@@ -6,7 +6,7 @@ interface GitHubGuideModalProps {
 }
 
 export const GitHubGuideModal: React.FC<GitHubGuideModalProps> = ({ onClose }) => {
-  const [repoName, setRepoName] = useState('thai-gov-asset-management');
+  const [repoName, setRepoName] = useState('comasset');
   const [githubUser, setGithubUser] = useState('YOUR_GITHUB_USERNAME');
   const [githubToken, setGithubToken] = useState('');
   const [copiedStep, setCopiedStep] = useState<string | null>(null);
