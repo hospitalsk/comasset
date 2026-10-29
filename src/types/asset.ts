@@ -98,7 +98,9 @@ export interface AppSettings {
   sub_organization: string;
   garuda_symbol_type: 'official_gold' | 'official_red' | 'custom';
   garuda_custom_url?: string;
+  garuda_drive_file_id?: string;
   logo_url?: string;
+  logo_drive_file_id?: string;
   chief_procurement_officer: string; // หัวหน้าเจ้าหน้าที่พัสดุ
   procurement_officer: string; // เจ้าหน้าที่พัสดุ
   approver_officer: string; // ผู้อำนวยการ / ผู้สั่งการ
